@@ -157,7 +157,7 @@ section{
 }
 
 .hero{
-    background-image: url(../images/Place_holder_cage_4.jpg);
+    background-image: url(../images/Soapstone.jpg);
     height:400px;
     background-size:cover;
     background-position: center center;
@@ -252,7 +252,7 @@ section{
 }
 .full-banner-image {
     flex: 0 0 58.333333%;
-    background-image: url(../images/Place_holder_cage_4.jpg);
+    background-image: url(../images/Andes_Mountains.jpg);
     background-size: cover;
     background-position: top center;
     min-height: 400px;
