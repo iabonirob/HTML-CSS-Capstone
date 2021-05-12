@@ -9,183 +9,62 @@
     <!-- Bootstrap CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type =text/css href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <nav class="header-nav">
-            <div class="container flex space-between">
-                <!-- BRANDING -->
-                <div class="flex align-center header-nav brand">
-                    <a href="#">
-                        <img class="logo" alt="Chotch Shop logo" src="images/Place_holder_Cage_1.jpg">
-                    </a>
-                </div>
-                <!-- SEARCH -->
-                <div class="flex flex-one align-center">
-                    <div>
-                        <form>
-                            <input aria-label="Search" placeholder="What can we help you find?" class="search-box">
-                            <button type="submit" class="search-button">SEARCH</button>
-                        </form>
-                        <ul class="flex space-between nav-list">
-                            <li><a href="products.html" target="_blank">Shop</a></li>
-                            <li><a href="index.html" target="_blank">Home</a></li>
-                            <li><a href="register.html" target="_blank">Register</a></li>
-                            <li><a href="login.html" target="_blank">Log In</a></li>
-                            <li><a href="contact.html" target="_blank">Contact/About US</a></li>
-                           
-                        </ul>
-                        </form>
-                    </div>
-        </nav>
-    </header>
-
-    <main>
- <!-- HERO -->
- <section class="hero">
-    <div class="container flex flex-column align-center center">
-      <h1>Chotch Shop Special</h1>
-      <h2>Get 20% Off</h2>
-      <p>Off your first order</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 navbar">
+          <a class ="logo navbar-brand text-white offset-md-2">logo</a>
+          <ul class="nav">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Log In</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <!-- slier banner-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="info">
+              <h1>Tchotch Shop</h1>
+              <p>Make it seem like you were there...</p>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>Our Wares</h1>
+              <p>Are 100% ethically sourced ethically</p>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>Your Home</h1>
+              <p>Will never lack for a conversation piece</p>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
-  </section>
+  </div>
 
-   <!-- MAIN CONTAINER -->
-   <div class="container">
-    <!-- SALE BANNER -->
-    <section>
-      <div class="flex align-center center banner">
-        <img alt="placeholder" src="images/Place_holder_cage_2.jpg">
-        <div class="banner-text">
-          <div class="text-light">The Chotch Shop</div>
-          <div class="text-secondary">When you you want to explore but cant be asked to go</div>
-          <div class="text-primary">we help make it seem like you did </div>
-        </div>
-        <img alt="placeholder" src="images/place_holder_cage_2.jpg">
-      </div>
-    </section>
 
-    <!-- CATEGORIES -->
-    <section>
-      <div class="category">
-        <a href="#">
-          <img alt="placeholder" src="images/Hong_Kong.jpg" />
-          <div class="category-text">
-            <h3>Hong Kong</h3>
-            <div>China</div>
-          </div>
-        </a>
-      </div>
-      <div class="category">
-        <a href="#">
-          <img alt="placeholder" src="images/Tanzania.JPG" />
-          <div class="category-text">
-            <h3>Arusha</h3>
-            <div>Tanzania</div>
-          </div>
-        </a>
-      </div>
-      <div class="category">
-        <a href="#"> 
-          <img alt="Pack It In" src="images/Yellowstone.jpg"/>
-          <div class="category-text">
-            <h3>Yellowstone</h3>
-            <div>USA</div>
-          </div>
-        </a>
-      </div>
-      <div class="category">
-        <a href="#">
-          <img alt="Nature's AC" src="images/london.jpg"/>
-          <div class="category-text">
-            <h3>London</h3>
-            <div>United Kingdom</div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-     <!-- FULL BANNER -->
-     <section class="full-banner">
-        <div class="full-banner-image"></div>
-        <div class="flex flex-column align-center center full-banner-sidebar">
-          <h4>Learn More</h4>
-          <div>About</div>
-          <div>Our Story Here</div>
-          <a href="#" class="btn btn-default">About the Choch Shop</a>
-        </div>
-      </section>
-  
-    </div>
-  
-    <!-- FOOTER -->
-    <footer>
-      <section class="container space-between lists">
-        <div>
-          <div class="text-primary link-header">Customer Support</div>
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Order Tracker</a></li>
-            <li><a href="#">Returns &amp; Refunds</a></li>
-            <li><a href="#">Size Guide</a></li>
-            <li><a href="#">Store Locator</a></li>
-            <li><a href="#">Site Map</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="text-primary link-header">Company Info</div>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Affiliates</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Mobile Apps</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="text-primary link-header">Privacy &amp; Terms</div>
-          <ul>
-            <li><a href="#">Privacy &amp; Security</a></li>
-            <li><a href="#">Statement</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-          </ul>
-        </div>
-        <div class="social">
-          <div class="text-primary link-header">Follow Us</div>
-          <ul>
-            <li><a class="twitter" href="#"></a></li>
-            <li><a class="facebook" href="#"></a></li>
-            <li><a class="instagram" href="#"></a></li>
-            <li><a class="pinterest" href="#"></a></li>
-          </ul>
-          <div class="newsletter">
-            <div class="link-header">Email Updates</div>
-            <div class="link-subheader">Exclusive sales, special offers, and more.</div>
-            <input class="form-control" type="text" placeholder="Enter email address" />
-            <button class="btn btn-primary">Sign up</button>
-          </div>
-        </div>
-      </section>
-  
-      <!-- PS DEMO -->
-      <section class="ps">
-        <div class="flex flex-column align-center space-between">
-          <img src="images/pluralsight-logo.png" />
-          <div class="demo">This site is created for demonstrative purposes only and does not offer any real products or services.</div>
-        </div>
-      </section>
-  
-      <div class="text-primary copyright">&copy;Pluralsight 2018</div>
-    </footer>
-    </main>
-
-    <footer>
-
-    </footer>
     <!-- Bootstrap JavaScript files (bundle) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
