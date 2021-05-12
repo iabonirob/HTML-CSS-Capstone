@@ -1,12 +1,27 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+
+  @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap);
+
+  :root{
+      --white-light:rgba(255,255,255,.5);
+      --alice-blue: #f8f9fa;
+      --carribean-gray:#40c9a2;
+      --gray:#ededed;
   }
+  
   
   * {
     box-sizing: border-box;
   }
   
+  body{
+    font-family: 'Quicksand', sans-serif;
+    background: white;
+}
+
+.nav-rob-color{
+    background: var(--carribean-gray);
+}
+
   /* Add padding to containers */
   .container {
     padding: 16px;
@@ -43,7 +58,7 @@ body {
   
   /* Set a style for the submit button */
   .registerbtn {
-    background-color: #04AA6D;
+    background-color: var(--carribean-gray);
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
@@ -54,6 +69,7 @@ body {
   }
   
   .registerbtn:hover {
+    background: blue;
     opacity: 1;
   }
   
