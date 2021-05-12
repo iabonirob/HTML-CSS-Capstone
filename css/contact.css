@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap);
+
+:root{
+    --white-light:rgba(255,255,255,.5);
+    --alice-blue: #f8f9fa;
+    --carribean-gray:#40c9a2;
+    --gray:#ededed;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-rob-color{
+    background: var(--carribean-gray);
+}
+
+.loginbtn{
+    background: var(--carribean-gray);
+}
+
+.loginbtn:hover {
+    background: blue;
+    opacity: 1;
+  }
+  
