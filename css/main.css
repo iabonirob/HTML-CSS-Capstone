@@ -38,7 +38,7 @@
     color: #000;
 }
 .navbar ul.nav li a{
-    color: #fff;
+    color: var(--carribean-gray);
     font-size: 1em;
     font-weight: 500;
 }
@@ -46,6 +46,14 @@
     color: #000;
 }
 
+.btn-rob{
+    color: #fff;
+    background: var(--carribean-gray);
+    border: none;
+}
+.homebutton{
+    color: #fff;
+}
 /*carousel */
 
 #carouselExampleIndicators{
@@ -103,7 +111,7 @@
 
 }
 #carouselExampleIndicators .carousel-inner .carousel-item h1{
-    color: #fff;
+    color: var(--carribean-gray);
     height: auto;
     width: 100%;
     z-index: 1;
