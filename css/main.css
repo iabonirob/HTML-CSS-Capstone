@@ -84,19 +84,37 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background: url(../images/Soapstone.jpg);
+    background: url(../images/Ngoro.JPG);
     background-size: 100% 100%;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-    background: url(../images/Tanzania.JPG);
+    background: url(../images/Soapstone.jpg);
     background-size: 100% 100%;
     background-position: center;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-    background: url(../images/london.jpg);
+    background: url(../images/london_2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4){
+    background: url(../images/Andes_Mountains.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5){
+    background: url(../images/Zanzibar.JPG);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(6){
+    background: url(../images/dubai_2.jpg);
     background-size: 100% 100%;
     background-position: center;
 }
